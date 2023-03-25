@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow";
+    font-weight: 400;
+    background-color: #EFF6FF;
+    padding: 60px 35px;
+    color: #2A4A5C;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.container_left{
+    width: 50%;
+    background-image: url("../first_landing_page/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container_right{
+    padding: 80px 50px;
+    background-color: #EEEEEE;
+    width: 50%;
+    height: 100%;
+}   
+
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+header{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.header_title {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.header_text {
+    color: #7B8A92;
+}
+
+.registration{
+    margin-top: 50px;
+}
+
+.registration_social_media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registration_facebook,
+.registration_linkedin {
+    background-color: #255A9B;
+    color: #fff;
+    display: flex; 
+    align-items: center;
+    padding: 10px 15px;
+    width: 47%;
+    transition: 0.4s;
+}
+
+.registration_linkedin {
+    background-color: #0076B6;
+}
+
+.registration_facebook:hover,
+.registration_linkedin:hover {
+    transform: scale(1.05);
+}
+
+.registration_facebook img,
+.registration_linkedin img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    color: #7B8A92;
+    font-size: 14px;
+}
+
+.or::after,
+.or::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #AFAFAF;
+    position: absolute;
+    top: 10px;
+    right: 130px;
+}
+
+.or::before {
+    left: 130px;
+}
+
+.registration_form{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.registration_form__email,
+.registration_form__tel {
+    border-radius: 0px;
+    border: 1px solid #EEEEEE;
+    outline: none;
+    padding: 10px 20px 15px 15px;
+    width: 47%;
+}
+
+.registration_form__email:focus,
+.registration_form__tel:focus {
+    border-left: 2px solid #3698FB;
+}
+
+.registration_form__email::placeholder,
+.registration_form__tel::placeholder{
+    color: #96A5B1;
+    font-size: 14px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content_title{
+    font-size: 25px;
+}
+.content_text {
+    margin: 20px 0 50px;
+}
+
+.content_checkbox{
+    display: flex;
+    align-items: center; 
+}
+
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.label:not(:last-child) {
+    margin-right: 60px;
+}
+
+.radio {
+    margin-right: 10px;
+}
+
+.content_description{
+    padding: 10px;
+    background-color: #fff;
+    width: 53%;
+    margin-top: 40px;
+}
+
+.content_description__text {
+    color: #96A5B1;
+    font-size: 14px;
+
+}
+
+.content_agreement {
+    margin: 40px 0 50px;
+}
+
+.agreement_label {
+    display: flex;
+    align-items: center;
+}
+
+.agreement_label p,
+.agreement_label a {
+    font-size: 14px;
+}
+
+.agreement_label a {
+    text-decoration: underline;
+    color: #3698FB;
+}
+
+.agreement_label input {
+    margin-right: 5px;
+}
+
+.create_account input{
+    background-color:#3698FB;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 50%;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.create_account input:hover {
+    transform: scale(1.05);
+}

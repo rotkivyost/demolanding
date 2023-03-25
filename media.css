@@ -1,0 +1,224 @@
+@media (max-width: 1399.98px) {
+
+    .registration_facebook img,
+    .registration_linkedin img {
+        margin-right: 15px;
+    }
+
+    .registration_facebook,
+    .registration_linkedin {
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    .container_right {
+        padding: 60px 35px;
+    }
+
+    .or::after {
+        right: 70px;
+    }
+
+    .or::before {
+        left: 70px;
+    }
+
+    .content_checkbox {
+        justify-content: space-between;
+    }
+
+    .label:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .content_description {
+        width: 100%;
+    }
+
+    .agreement_label {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .registration_social_media,
+    .registration_form {
+        flex-direction: column;
+        width: 90%;
+        row-gap: 10px;
+    }
+
+    .registration_facebook,
+    .registration_linkedin,
+    .registration_form__email,
+    .registration_form__tel {
+        width: 100%;
+    }
+
+    .or::after, 
+    .or::before {
+        width: 60px;
+    }
+
+    .or::after {
+        right: 60px;
+    }
+
+    .or::before {
+        left: 60px;
+    }
+
+    .content_title {
+        font-size: 20px;
+    }
+
+    .content_text {
+        margin: 15px 0 30px;
+        font-size: 14px;
+    }
+
+    .content_checkbox {
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .content_description {
+        margin-top: 25px;
+    }
+
+    .agreement_label p, 
+    .agreement_label a {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .container_right {
+        padding: 40px 20px;
+    }
+
+    .header_title {
+        font-size: 25px;
+    }
+    .header_text {
+        font-size: 14px;
+    }
+
+    .registration_facebook, 
+    .registration_linkedin, 
+    .registration_form__email, 
+    .registration_form__tel {
+        font-size: 12px;
+    }
+
+    .or {
+        margin: 20px 0;
+    }
+
+    .or::after, 
+    .or::before {
+        width: 35px;
+    }
+
+    .registration_social_media,
+    .registration_form {
+        width: 100%;
+    }
+
+    .content_title {
+        font-size: 18px;
+    }
+
+    .content {
+        margin-top: 30px;
+    }
+
+    .content_text {
+        font-size: 12px;
+    }
+
+    .content_checkbox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .label span {
+        font-size: 14px;
+    }
+
+    .content_description__text {
+        font-size: 12px;
+    }
+
+    .create_account input {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logo {
+        top: -5px;
+        left: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .container_right {
+        padding: 10px 5px;
+    }
+
+    .header_title {
+        font-size: 16px;
+    }
+
+    .registration_facebook img, 
+    .registration_linkedin img {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+
+    .registration_facebook, 
+    .registration_linkedin, 
+    .registration_form__email, 
+    .registration_form__tel,
+    .or,
+    .content_text,
+    .label span,
+    .create_account input,
+    .content_description__text,
+    .registration_form__email::placeholder, 
+    .registration_form__tel::placeholder,
+    .header_text {
+        font-size: 10px;
+    }
+
+    .registration_facebook, 
+    .registration_linkedin,
+    .registration_form__email, 
+    .registration_form__tel {
+        padding: 5px;
+    }
+
+    .registration {
+        margin-top: 25px;
+    }
+
+    .or::after, 
+    .or::before {
+        content: none;
+    }
+
+    .body {
+        padding: 40px 20px;
+    }
+
+    .content_title  {
+        font-size: 12px;
+    }
+}
